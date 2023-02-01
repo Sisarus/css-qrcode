@@ -12,16 +12,24 @@ h3 {
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 400;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.item {
+    align-self: center;
 }
 
 .qr-box {
     background-color: hsl(0, 0%, 100%);
-    margin: auto;
-    border-radius: 15px;
+    border-radius: 0.9rem;
     padding: 0.8rem;
-    width: 300px
+    width: 300px;
 }
 
 .qr-image {
